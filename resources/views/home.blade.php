@@ -2,6 +2,12 @@
 
 @section('content')
 
+@include('partials.cards', ['cards' => $lunghe, 'title' => 'LE LUNGHE']);
+@include('partials.cards', ['cards' => $corte, 'title' => 'LE CORTE']);
+@include('partials.cards', ['cards' => $cortissime, 'title' => 'LE CORTISSIME']);
+
+@endsection
+{{-- 
 <section class="type-section">
 
 <h2>LE LUNGHE</h2>
@@ -12,7 +18,7 @@
             <h3>{{ $card['titolo'] }}</h3>
 
 
-            {{-- product {id} --}}
+            77product- $id
             <a href="{{ route('product', $card['id']) }}">Vedi prodotto</a>
         </div>
             
@@ -58,7 +64,7 @@
 
 
 
-{{-- <section>
+ <section>
     <div class="cards">
         @foreach ($cards as $card)
         <div class="card">
@@ -69,6 +75,6 @@
             
         @endforeach
     </div>
-</section> --}}
+</section>
 
-@endsection
+@endsection --}}
