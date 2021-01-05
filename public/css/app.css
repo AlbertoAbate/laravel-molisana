@@ -8,14 +8,36 @@ img {
   width: 300px;
 }
 
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
 .container {
   max-width: 1170px;
+  margin: 0 auto;
+}
+
+.container-small {
+  max-width: 1000px;
   margin: 0 auto;
 }
 
 .images {
   width: 1000px;
   display: block;
+}
+
+.flex-full {
+  display: flex;
+  justify-content: space-between;
+}
+
+.line {
+  line-height: 28px;
 }
 
 .cards {
@@ -26,4 +48,50 @@ img {
   flex-basis: 32%;
   margin-right: 1%;
   margin-bottom: 40px;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+nav li {
+  margin-right: 20px;
+}
+nav li a {
+  color: #333333;
+  font-weight: bold;
+}
+
+main {
+  background-image: url(../img/fondo-pag-speciali.jpg);
+  background-position-y: -561px;
+  background-position-x: -180px;
+  padding: 20px 0;
+}
+main h2, main h3 {
+  color: #425374;
+}
+
+footer {
+  padding: 20px 10px;
+  background-color: #fff;
+}
+footer img {
+  width: 150px;
+}
+footer ul {
+  padding-left: 0;
+}
+footer ul li {
+  font-size: 12px;
+}
+footer .footer-image img {
+  width: 100%;
 }

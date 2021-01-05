@@ -1,4 +1,4 @@
-<section class="type-section">
+<section class="type-section container-small">
 
     <h2>{{$title}}</h2>
     <div class="cards">

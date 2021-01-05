@@ -57,7 +57,10 @@ Route::get('/product/{id}', function ($id) {
     return view('product', compact('product', 'id', 'length'));
 })->name('product');
 
-
+//news
+Route::get('/our-products', function () {
+    return view('products');
+})->name('products');
 
 //news
 Route::get('/our-news', function () {

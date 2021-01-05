@@ -10,6 +10,9 @@
             <a href="{{ route('home') }}">HOME</a>
         </li>
         <li>
+            <a href="{{ route('products') }}">PRODOTTI</a>
+        </li>
+        <li>
             <a href="{{ route('news') }}">NEWS</a>
         </li>
     </nav>

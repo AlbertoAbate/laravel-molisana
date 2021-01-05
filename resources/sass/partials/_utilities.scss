@@ -2,7 +2,18 @@
     max-width: 1170px;
     margin: 0 auto;
 }
+.container-small {
+    max-width: 1000px;
+    margin: 0 auto;
+}
 .images {
     width: 1000px;
     display: block;
+}
+.flex-full {
+    display: flex;
+    justify-content: space-between;
+}
+.line {
+    line-height: 28px;
 }
